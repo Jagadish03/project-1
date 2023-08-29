@@ -581,3 +581,66 @@ html,body
     color: #e84545;
     transition: all 0.5s;
 }
+
+/*  * features section */
+
+.f-top
+{
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.f-top h1
+{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #32353a;
+    margin-bottom: 10px;
+}
+
+.f-top p
+{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-
+}
+.f-top h1::before
+{
+    margin: 0 6px 10px 15px;
+}
+
+.f-top h1::before
+{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:#e84545;
+    display: inline-block;
+}
+
+.f-top h1::after
+{
+    margin: 0 6px 10px 15px;
+}
+
+.f-top h1::after
+{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:#e84545;
+    display: inline-block;
+}
+
+.img-content
+{
+    border: 2px solid blue;
+    display: flex;
+}
+
+.f-left
+{
+    border: 2px solid yellow;
+}
