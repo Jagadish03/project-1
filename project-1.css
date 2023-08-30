@@ -844,3 +844,54 @@ html,body
     color: white;
     background: #e84545;
 }
+
+.img-collection
+{
+    border: 2px solid blueviolet;
+    position: relative;
+    height: 1249.11px;
+    width: 1320px;
+}
+
+.img-collection .img-1
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.img-collection .img-1 img
+{
+    width: 416px;
+    height: 421px;
+}
+
+.img-info
+{
+    /* opacity: 0; */
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    /* bottom: -100%; */
+    z-index: 3;
+    transition: all ease-in-out 0.5s;
+    background: rgba(var(--color-box-background-rgb), 0.9);
+    padding: 15px;
+}
+
+.img-info h4{
+    color: #32353a;
+    font-size: 18px;
+    font-weight: 800;
+    padding-right: 50px;
+}
+
+.img-info p
+{
+    font-size: 14px;
+    padding-right: 50px;
+    color: #4d5154;
+    margin-bottom: 0;
+    margin-top: 8px;
+    display: flex;
+}
