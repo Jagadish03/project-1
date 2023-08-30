@@ -708,7 +708,7 @@ html,body
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .img-left img
@@ -759,4 +759,88 @@ html,body
 .img2-content button:hover
 {
     background-color: #f70606;
+}
+
+/* ? Portfolio section */
+
+.p-top
+{
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.p-top h1
+{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #32353a;
+    margin-bottom: 10px;
+}
+
+.p-top p
+{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-
+}
+.p-top h1::before
+{
+    margin: 0 6px 10px 15px;
+}
+
+.p-top h1::before
+{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:#e84545;
+    display: inline-block;
+}
+
+.p-top h1::after
+{
+    margin: 0 6px 10px 15px;
+}
+
+.p-top h1::after
+{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:#e84545;
+    display: inline-block;
+}
+
+.b-list ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;   
+}
+
+.b-list li
+{
+    padding: 8px 20px 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    /* display: inline-block; */
+    transition: all 0.3 ease;
+}
+
+.b-list .l-all
+{
+    background: #e84545;
+    color: white;
+}
+
+.b-list li:hover
+{
+    color: white;
+    background: #e84545;
 }
