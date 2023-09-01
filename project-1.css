@@ -771,6 +771,11 @@ html,body
     margin-bottom: 80px;
 }
 
+.portfolio
+{
+    border: 2px solid red;
+    width: 250px;
+}
 .p-top h1
 {
     font-size: 32px;
@@ -868,7 +873,8 @@ html,body
 
 .icon-text
 {
-    opacity: 0;
+    /* opacity: 0;
+     */
     overflow: hidden;
     position: absolute;
     width: 416px;
