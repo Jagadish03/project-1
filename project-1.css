@@ -1037,6 +1037,99 @@ html,body
 
 /* ---------------------------------------- */
 
+/* & img-6 */
+
+.img-6
+{
+    /* border: 2px solid yellow; */
+    width: 416px;
+    height: 279px;
+    position: relative;
+}
+
+.img-6 img{
+    width: 410px;
+    height: 100%;
+}
+
+.img-6:hover .icon-text
+{
+    height: 30%;
+    transition: all 0.5s 0.3s ease-out;
+}
+
+/* & img-7 */
+
+.img-7
+{
+    /* border: 2px solid yellow; */
+    width: 416px;
+    height: 618px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.img-7 img{
+    width: 410px;
+    height: 100%;
+}
+
+.img-7:hover .icon-text
+{
+    height: 15%;
+    transition: all 0.5s 0.3s ease-out;
+}
+/* & img-8 */
+
+.img-8
+{
+    /* border: 2px solid yellow; */
+    width: 416px;
+    height: 276px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.img-8 img{
+    width: 410px;
+    height: 100%;
+}
+
+.img-8:hover .icon-text
+{
+    height: 30%;
+    transition: all 0.5s 0.3s ease-out;
+}
+/* & img-9 */
+
+.img-9
+{
+    /* border: 2px solid yellow; */
+    width: 416px;
+    height: 276px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.img-9 img{
+    width: 410px;
+    height: 100%;
+}
+
+.img-9:hover .icon-text
+{
+    height: 30%;
+    transition: all 0.5s 0.3s ease-out;
+}
+
+/* ? column3 */
+.img-column3
+{
+    border: 2px solid red;
+    height: 1250px;
+    width: 420px;
+    margin-left: 20px;
+}
 
 
 
