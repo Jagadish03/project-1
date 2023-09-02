@@ -852,19 +852,8 @@ html,body
     border: 2px solid blue;
     width: 1320px;
     height: 1250px;
-}
-
-.img-collection .img-1
-{
-    /* border: 2px solid yellow; */
-    width: 416px;
-    height: 421px;
-    position: relative;
-}
-
-.img-collection .img-1 img{
-    width: 410px;
-    height: 415px;
+    margin-left: 16%;
+    display: flex;
 }
 
 .icon-text
@@ -875,7 +864,7 @@ html,body
     background-color:rgba(255, 255, 255, 0.849);
     position:absolute;
     height: 0%;
-    width: 100%;
+    width: 410px;
     bottom: 0px;
     transition: hight 0.3s 0.2s;
     overflow: hidden;
@@ -912,14 +901,142 @@ html,body
     color: #636669;
 }
 
-.img-1:hover .icon-text
-{
-    height: 20%;
-    transition: all 0.5s 0.3s ease-out;
-}
 
 .icons i:hover
 {
     color: #e84545;
     transition: all 0.3s;
 }
+
+/* & img-1 */
+
+.img-1
+{
+    /* border: 2px solid yellow; */
+    width: 416px;
+    height: 421px;
+    position: relative;
+}
+
+.img-1 img{
+    width: 410px;
+    height: 415px;
+}
+
+.img-1:hover .icon-text
+{
+    height: 20%;
+    transition: all 0.5s 0.3s ease-out;
+}
+
+
+/* & img-2 */
+
+.img-2
+{
+    /* border: 2px solid yellow; */
+    width: 416px;
+    height: 618px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.img-2 img{
+    width: 410px;
+    height: 100%;
+}
+
+.img-2:hover .icon-text
+{
+    height: 15%;
+    transition: all 0.5s 0.3s ease-out;
+}
+
+/* ? column1 */
+.img-column1
+{
+    border: 2px solid red;
+    height: 1250px;
+    width: 420px;
+}
+
+/* ------------------------------ */
+
+/* & img-3 */
+
+.img-3
+{
+    /* border: 2px solid yellow; */
+    width: 416px;
+    height: 279px;
+    position: relative;
+}
+
+.img-3 img{
+    width: 410px;
+    height: 100%;
+}
+
+.img-3:hover .icon-text
+{
+    height: 30%;
+    transition: all 0.5s 0.3s ease-out;
+}
+
+/* & img-4 */
+
+.img-4
+{
+    /* border: 2px solid yellow; */
+    width: 416px;
+    height: 618px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.img-4 img{
+    width: 410px;
+    height: 100%;
+}
+
+.img-4:hover .icon-text
+{
+    height: 15%;
+    transition: all 0.5s 0.3s ease-out;
+}
+/* & img-5 */
+
+.img-5
+{
+    /* border: 2px solid yellow; */
+    width: 416px;
+    height: 276px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.img-5 img{
+    width: 410px;
+    height: 100%;
+}
+
+.img-5:hover .icon-text
+{
+    height: 30%;
+    transition: all 0.5s 0.3s ease-out;
+}
+
+/* ? column2 */
+.img-column2
+{
+    border: 2px solid red;
+    height: 1250px;
+    width: 420px;
+    margin-left: 20px;
+}
+
+/* ---------------------------------------- */
+
+
+
+
