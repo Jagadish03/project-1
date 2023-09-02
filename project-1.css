@@ -849,10 +849,11 @@ html,body
 
 .img-collection
 {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 1320px;
     height: 1250px;
-    margin-left: 16%;
+    margin-top: 20px;
+    margin-left: 15%;
     display: flex;
 }
 
@@ -955,7 +956,7 @@ html,body
 /* ? column1 */
 .img-column1
 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 1250px;
     width: 420px;
 }
@@ -1029,10 +1030,10 @@ html,body
 /* ? column2 */
 .img-column2
 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 1250px;
     width: 420px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 /* ---------------------------------------- */
@@ -1043,7 +1044,7 @@ html,body
 {
     /* border: 2px solid yellow; */
     width: 416px;
-    height: 279px;
+    height: 234px;
     position: relative;
 }
 
@@ -1054,7 +1055,7 @@ html,body
 
 .img-6:hover .icon-text
 {
-    height: 30%;
+    height: 35%;
     transition: all 0.5s 0.3s ease-out;
 }
 
@@ -1064,7 +1065,7 @@ html,body
 {
     /* border: 2px solid yellow; */
     width: 416px;
-    height: 618px;
+    height: 275px;
     position: relative;
     margin-top: 30px;
 }
@@ -1076,7 +1077,7 @@ html,body
 
 .img-7:hover .icon-text
 {
-    height: 15%;
+    height: 33%;
     transition: all 0.5s 0.3s ease-out;
 }
 /* & img-8 */
@@ -1085,7 +1086,7 @@ html,body
 {
     /* border: 2px solid yellow; */
     width: 416px;
-    height: 276px;
+    height: 270px;
     position: relative;
     margin-top: 30px;
 }
@@ -1106,7 +1107,7 @@ html,body
 {
     /* border: 2px solid yellow; */
     width: 416px;
-    height: 276px;
+    height: 277px;
     position: relative;
     margin-top: 30px;
 }
@@ -1125,10 +1126,10 @@ html,body
 /* ? column3 */
 .img-column3
 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 1250px;
     width: 420px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 
