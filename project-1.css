@@ -1258,3 +1258,50 @@ html,body
     font-size: 18px;
     font-weight: 700;
 }
+
+.free-plan ul
+{
+    padding: 20px 0;
+    color: #323436;
+    line-height: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.free-plan ul li
+{
+    padding: 10px 0;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.free-plan ul i
+{
+    color: #059652;
+    font-size: 24px;
+    padding-right:4px;
+}
+
+.na{
+    text-decoration: line-through;
+    color: #949698;
+}
+
+.pri-button button
+{
+    padding: 10px 40px;
+    margin-left: 33%;
+    color: #4d5154;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: 1px solid #949698;
+}
+
+.pri-button:hover button
+{
+    color: #fffbfb;
+    background: #e84545;
+    transition: 0.3s;
+}
