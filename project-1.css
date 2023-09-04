@@ -763,9 +763,15 @@ html,body
 
 /* ? Portfolio section */
 
+.portfolio
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .p-top
 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     margin-top: 40px;
     margin-bottom: 80px;
@@ -867,7 +873,7 @@ html,body
     height: 0%;
     width: 410px;
     bottom: 0px;
-    transition: hight 0.3s 0.2s;
+    /* transition: hight 0.3s 0.2s; */
     overflow: hidden;
 }
 
