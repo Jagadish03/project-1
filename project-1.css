@@ -779,7 +779,7 @@ html,body
 
 .p-top h1
 {
-    font-size: 32px;
+    font-size: 36px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
     color: #32353a;
@@ -1138,5 +1138,123 @@ html,body
     margin-left: 25px;
 }
 
+/*  & Pricing section */
 
+.pri-top
+{
+    /* border: 2px solid red; */
+    text-align: center;
+    /* margin-top: 40px; */
+    margin-bottom: 100px;
+}
 
+.pri-top h1
+{
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #32353a;
+    margin-bottom: 10px;
+}
+
+.pri-top p
+{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-
+}
+.pri-top h1::before
+{
+    margin: 0 6px 10px 15px;
+}
+
+.pri-top h1::before
+{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:#e84545;
+    display: inline-block;
+}
+
+.pri-top h1::after
+{
+    margin: 0 6px 10px 15px;
+}
+
+.pri-top h1::after
+{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:#e84545;
+    display: inline-block;
+}
+
+/* ^ free plan */
+
+.pri-content
+{
+    border: 2px solid aqua;
+    width: 1320px;
+    height: 700px;
+}
+
+.free-plan
+{
+    border: 2px solid blue;
+    width: 416px;
+    height: 675px;
+}
+
+.free-plan h3
+{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.pri-icon
+{
+    /* text-align: center; */
+    width: 70px;
+    height: 70px;
+    background-color: #e84545;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.pri-icon .fa-solid
+{
+    color: white;
+    font-size: 28px;
+    margin-right: 8px;
+}
+
+.free-plan h4
+{
+    font-size: 48px;
+    font-weight: 700;
+    color: #e84545;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.free-plan h4 sup
+{
+    font-size: 28px;
+}
+
+.free-plan h4 span
+{
+    color: #949698;
+    font-size: 18px;
+    font-weight: 700;
+}
