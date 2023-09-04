@@ -1194,26 +1194,12 @@ html,body
 
 .pri-content
 {
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     width: 1320px;
-    height: 700px;
-}
-
-.free-plan
-{
-    border: 2px solid blue;
-    width: 416px;
-    height: 675px;
-}
-
-.free-plan h3
-{
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    font-family:Arial, Helvetica, sans-serif;
+    height: 800px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    display: flex;
 }
 
 .pri-icon
@@ -1257,6 +1243,47 @@ html,body
     margin-right: 8px;
 }
 
+.pri-button button
+{
+    padding: 10px 40px;
+    margin-left: 33%;
+    color: #4d5154;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: 1px solid #949698;
+}
+
+.pri-button:hover button
+{
+    color: #fffbfb;
+    background: #e84545;
+    transition: 0.3s;
+}
+
+/* ? div change */
+.free-plan
+{
+    width: 416px;
+    height: 675px;
+    padding: 18px 20px;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 3px 20px -2px rgba(128, 128, 128, 0.733);
+}
+
+.free-plan h3
+{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .free-plan h4
 {
     font-size: 48px;
@@ -1275,7 +1302,7 @@ html,body
 
 .free-plan h4 span
 {
-    color: #949698;
+    color: hsl(210, 2%, 59%);
     font-size: 18px;
     font-weight: 700;
 }
@@ -1308,21 +1335,88 @@ html,body
     color: #949698;
 }
 
-.pri-button button
-{
-    padding: 10px 40px;
-    margin-left: 33%;
-    color: #4d5154;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 6px;
-    transition: 0.3s;
-    border: 1px solid #949698;
+.na .fa-solid{
+    color: #949698;
 }
 
-.pri-button:hover button
+/* ? div end changes */
+
+/* ^ business plan */
+
+/* ? div change */
+.business-plan
 {
-    color: #fffbfb;
-    background: #e84545;
-    transition: 0.3s;
+    width: 486px;
+    height: 770px;
+    padding: 18px 20px;
+    position: relative;
+    border-radius: 15px;
+    /* box-shadow: 0 3px 20px -2px rgba(128, 128, 128, 0.733);*/
+    border: 4px solid red ;
+}
+
+.business-plan h3
+{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.business-plan h4
+{
+    font-size: 53px;
+    font-weight: 700;
+    color: #e84545;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.business-plan h4 sup
+{
+    font-size: 33px;
+}
+
+.business-plan h4 span
+{
+    color: hsl(210, 2%, 59%);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.business-plan ul
+{
+    padding: 20px 0;
+    color: #323436;
+    line-height: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.business-plan ul li
+{
+    padding: 10px 0;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.business-plan ul i
+{
+    color: #059652;
+    font-size: 30px;
+    padding-right:4px;
+}
+
+/* ? div end changes */
+
+.business-plan button
+{
+    width: 180px;
+    height: 52px;
+    color: white;
+    background-color: #e84545d0;
 }
