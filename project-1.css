@@ -1633,24 +1633,42 @@ html,body
     width: 100%;
     height: 1074px;
     background-color: #dad7d783;
+    margin-bottom: 40px;
+}
+
+.m-img1
+{
+    /* border: 2px solid rgb(166, 255, 0); */
+    width: 440px;
+    height: 388px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
 }
 
 .team-row
 {
-    border: 2px solid red;
-    width: 1320px;
+    /* border: 2px solid red; */
+    width: 1400px;
+    /* height: 100%; */
     height: 872px;
     margin-left: 15%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .member-img1
 {
     /* border: 2px solid blue; */
+    margin-left: 90px;
     width: 248px;
     height: 248px;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
+    border: 4px solid white;
+    box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.2);
 }
 
 .member-img1 img
@@ -1661,7 +1679,7 @@ html,body
 
 .team-icons
 {
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
@@ -1698,3 +1716,32 @@ html,body
     color: #e84545;
 }
 
+.member-info
+{
+    margin-top: 30px;
+}
+
+.member-info h4
+{
+    font-weight: 700;
+    margin-bottom: 6px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.member-info span
+{
+    font-style: italic;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color:#636669;
+    margin-bottom: 10px;
+}
+
+.member-info p
+{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
