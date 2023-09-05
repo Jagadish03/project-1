@@ -19,7 +19,7 @@ html,body
     width: 100%;
     /* background: #000;S */
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     top: 0px;
     /* background-color: white; */
     z-index: 99999;
@@ -1194,7 +1194,7 @@ html,body
 
 .pri-content
 {
-    /* border: 2px solid aqua; */
+    border: 2px solid aqua;
     width: 1320px;
     height: 800px;
     margin-left: 15%;
@@ -1204,36 +1204,71 @@ html,body
 
 .pri-icon
 {
-    /* text-align: center; */
+    /* text-align: center;
     width: 70px;
     height: 70px;
     background-color: #d41919;
+    z-index: 99;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 40%;
-    position: relative;
+    position: relative;  */
+    margin: 30px auto 20px auto;
+    width: 70px;
+    height: 70px;
+    background:#e84545;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    transform-style: preserve-3d;
 }
+
 
 .pri-icon::before
 {
+    /* position: absolute;
+    display: block;
+    top: -12px;
+    left: -12px;
+    content: "";
+    height: 90px;
+    width: 190px;
+    border-radius: 50%;
+    background:rgba(255, 255, 0, 0.432);
+    border: 2px solid red;
+    z-index: -1; */
     position: absolute;
     content: "";
     height: 86px;
     width: 86px;
     border-radius: 50%;
-    background:#d455559f;
+    background: rgba(240, 88, 88, 0.616);
+    transform: translateZ(-1px);
 }
 
 .pri-icon::after
 {
+    /* position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background:rgba(5, 187, 87, 0.288);
+    z-index: 200; */
     position: absolute;
     content: "";
     height: 102px;
     width: 102px;
     border-radius: 50%;
-    background:#f193939f;
+    background: rgb(240, 152, 152);
+    transform: translateZ(-2px);
 }
 
 .pri-icon .fa-solid
@@ -1349,7 +1384,7 @@ html,body
     width: 486px;
     height: 770px;
     padding: 18px 20px;
-    position: relative;
+    /* position: relative; */
     border-radius: 15px;
     /* box-shadow: 0 3px 20px -2px rgba(128, 128, 128, 0.733);*/
     border: 4px solid red ;
