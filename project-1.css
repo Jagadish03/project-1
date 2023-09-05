@@ -1194,7 +1194,7 @@ html,body
 
 .pri-content
 {
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     width: 1320px;
     height: 800px;
     margin-left: 15%;
@@ -1216,6 +1216,7 @@ html,body
     margin-left: 40%;
     position: relative;  */
     margin: 30px auto 20px auto;
+    /* margin-left: 40%; */
     width: 70px;
     height: 70px;
     background:#e84545;
@@ -1223,7 +1224,6 @@ html,body
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.3s;
     transform-style: preserve-3d;
 }
 
@@ -1455,3 +1455,83 @@ html,body
     color: white;
     background-color: #e84545d0;
 }
+
+/* & question section */
+
+#question
+{
+    border: 2px solid skyblue;
+    width: 1320px;
+    height: 424px;
+    display:flex;
+    margin-left: 15%;
+}
+
+/* & q-left */
+.q-left
+{
+    border: 2px solid blue;
+    width: 416px;
+    height: 180px;
+}
+
+.q-left h3
+{
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.q-left h3 span
+{
+    color: #32353a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.q-left h3 strong
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #32353a;
+}
+
+.q-left p
+{
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 19px;
+    color:#7e7f80;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* & q-left */
+
+/* &q-right */
+.q-right
+{
+    width: 880px;
+    height: 400px;
+    border: 2px solid red;
+    margin-left: 20px;
+}
+
+.faq-item
+{
+    position: relative;
+    padding: 20px;
+}
+
+.faq-item h3
+{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.num1
+{
+    color: #e84545;
+    margin-right: 6px;
+}
+
