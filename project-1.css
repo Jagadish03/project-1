@@ -1465,7 +1465,7 @@ html,body
     height: 424px;
     display:flex;
     margin-left: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 /* & q-left */
@@ -1571,3 +1571,130 @@ html,body
 {
     color: #e84545;
 }
+
+/* * Team Section start */
+
+.team-top
+{
+    /* border: 2px solid red; */
+    text-align: center;
+    /* margin-top: 40px; */
+    /* margin-bottom: 100px; */
+}
+
+#team .team-top h1
+{
+    /* border: 2px solid red; */
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #32353a;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+
+.team-top p
+{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-
+}
+.team-top h1::before
+{
+    margin: 0 6px 10px 15px;
+}
+
+.team-top h1::before
+{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:#e84545;
+    display: inline-block;
+}
+
+.team-top h1::after
+{
+    margin: 0 6px 10px 15px;
+}
+
+.team-top h1::after
+{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background:#e84545;
+    display: inline-block;
+}
+
+/* * main team */
+#team
+{
+    /* border: 2px solid orange; */
+    width: 100%;
+    height: 1074px;
+    background-color: #dad7d783;
+}
+
+.team-row
+{
+    border: 2px solid red;
+    width: 1320px;
+    height: 872px;
+    margin-left: 15%;
+}
+
+.member-img1
+{
+    /* border: 2px solid blue; */
+    width: 248px;
+    height: 248px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.member-img1 img
+{
+   height: 100%;
+   width: 100%;
+}
+
+.team-icons
+{
+    border: 2px solid gold;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.member-img1:hover .team-icons
+{
+    opacity: 1;
+    transform:scale(1.2);
+}
+
+.team-icons i
+{
+    /* border: 2px solid blue; */
+    margin-left: 16px;
+    font-size: 18px;
+    color: white;
+}
+
+.team-icons i:hover
+{
+    color: #e84545;
+}
+
