@@ -873,8 +873,8 @@ html,body
     height: 0%;
     width: 410px;
     bottom: 0px;
-    /* transition: hight 0.3s 0.2s; */
     overflow: hidden;
+    transition: hight 0.3s 0.2s;
 }
 
 .icons 
@@ -1460,19 +1460,21 @@ html,body
 
 #question
 {
-    border: 2px solid skyblue;
+    /* border: 2px solid skyblue; */
     width: 1320px;
     height: 424px;
     display:flex;
     margin-left: 15%;
+    margin-bottom: 5%;
 }
 
 /* & q-left */
 .q-left
 {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 416px;
     height: 180px;
+    margin-top: 10px;
 }
 
 .q-left h3
@@ -1506,16 +1508,21 @@ html,body
 /* &q-right */
 .q-right
 {
+    /* border: 2px solid red; */
     width: 880px;
     height: 400px;
-    border: 2px solid red;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-top: 9px;
 }
 
 .faq-item
 {
+    /* border: 2px solid black; */
     position: relative;
     padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 20px -2px rgba(128, 128, 128, 0.733);
+    /* overflow: hidden; */
 }
 
 .faq-item h3
@@ -1523,10 +1530,16 @@ html,body
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-    display: flex;
+    /* display: flex; */
     cursor: pointer;
+    margin: 0 30px 0 0;
     transition: 0.3s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.faq-item h3:hover
+{
+    color: #e84545;
 }
 
 .num1
@@ -1535,3 +1548,26 @@ html,body
     margin-right: 6px;
 }
 
+
+
+/* .faq-content p
+{
+    margin-bottom: 0;
+    overflow: hidden;
+} */
+
+.faq-item .fa-solid 
+{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 20px;
+    line-height: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.q-right .faq-item i:hover 
+{
+    color: #e84545;
+}
