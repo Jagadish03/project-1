@@ -1633,7 +1633,7 @@ html,body
     width: 100%;
     height: 1074px;
     background-color: #dad7d783;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .m-img1
@@ -1745,3 +1745,68 @@ html,body
     text-align: center;
     justify-content: center;
 }
+
+/* ~ baground call to action */
+
+.banner
+{
+    border: 2px soild red;
+    padding: 20px;
+    height: 420px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://i.pinimg.com/originals/ff/69/e6/ff69e6c504c833210b6e61fe1f14ba0c.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.banner-content
+{
+    /* border: 2px solid rgb(241, 241, 239); */
+    border-radius: 10px;
+    width: 1076px;
+    height: 187px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.938),rgba(0, 0, 0, 0.151));
+}
+
+.banner-content h1
+{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.banner-content p
+{
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.banner .banner-content a
+{
+    border: 2px solid white;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 12px 40px;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 5px;
+    outline: none;
+}
+
+.banner .banner-content a:hover
+{
+    background: #e84545;
+    transition: all 0.5s;
+}
+
+/* ~ baground call of action end */
+
