@@ -1751,8 +1751,7 @@ html,body
 .banner
 {
     border: 2px soild red;
-    padding: 20px;
-    height: 420px;
+    height: 450px;
     width: 100%;
     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://i.pinimg.com/originals/ff/69/e6/ff69e6c504c833210b6e61fe1f14ba0c.png");
     background-repeat: no-repeat;
@@ -1770,7 +1769,7 @@ html,body
     /* border: 2px solid rgb(241, 241, 239); */
     border-radius: 10px;
     width: 1076px;
-    height: 187px;
+    height: 207px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -1781,6 +1780,7 @@ html,body
 {
     font-size: 35px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .banner-content p
@@ -1810,3 +1810,28 @@ html,body
 
 /* ~ baground call of action end */
 
+/* ^ Testimonials start */
+#testimonials
+{
+    border: 2px solid aqua;
+    width: 100%;
+    height: 444px;
+    background-color: #dad7d783;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-row
+{
+    border: 2px solid green;
+    width: 1320px;
+    height: 342px;
+}
+
+.testimonials-left
+{
+    border: 2px solid purple;
+    width: 550px;
+    height: 135px;
+}
