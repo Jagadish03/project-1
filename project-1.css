@@ -1786,20 +1786,21 @@ html,body
 .banner-content p
 {
     font-size: 18px;
-    margin-bottom: 35px;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 .banner .banner-content a
 {
-    border: 2px solid white;
+    border: 1px solid white;
     color: aliceblue;
     text-decoration: none;
-    padding: 12px 40px;
+    padding: 10px 40px;
     font-size: 23px;
     font-weight: 600;
     text-transform: capitalize;
     border-radius: 5px;
-    outline: none;
+    /* outline: none; */
 }
 
 .banner .banner-content a:hover
@@ -1849,7 +1850,7 @@ html,body
 .testimonials-left p{
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 20px;
+    line-height: 30px;
     font-weight: 300;
     color: #4d5154;
 }
@@ -1916,3 +1917,5 @@ html,body
     line-height: normal;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* ^ Testimonials section end  */
