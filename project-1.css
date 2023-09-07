@@ -2003,6 +2003,7 @@ html,body
     transform: scale(1.1,1.1);
     overflow: hidden;
     transition: all 0.5s ease-in;
+    cursor: pointer;
 }
 
 .rpb-left img
