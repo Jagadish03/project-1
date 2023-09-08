@@ -1810,7 +1810,7 @@ html,body
 
 .banner .banner-content a:hover
 {
-    background: #e84545;
+    background:#e84545;
     transition: all 0.5s;
 }
 
@@ -2236,3 +2236,86 @@ article h2
 }
 
 /* * contact section end */
+
+/* ^ footer section start */
+
+#footer
+{
+    border: 2px solid aqua;
+    width: 100%;
+    height: 450px;
+    background: black;
+    color: white;
+    font-size: 16px;
+}
+
+#footer .f-top
+{
+    border: 2px solid blue;
+    /* width: 100%; */
+    height: 345px;
+    margin: 5px;
+    background-color: #151515;
+    border-bottom: 1px solid #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-row
+{
+    border: 2px solid red;
+    width: 1520px;
+    height: 255px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+} 
+
+.f-row .footer-left
+{
+    border: 2px solid yellow;
+    width: 306px;
+    height: 100%;
+}
+
+.f-row .footer-left img
+{
+    height: 58px;
+    width: 80px;
+    margin-right:190px;
+}
+
+.f-row .footer-left p
+{
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 20px 20px;
+    line-height: 20px;
+}
+.f-icons{
+    text-align: left;
+    margin-left: 10px;
+}
+.f-icons .fa-brands
+{
+    border: 2px solid green;
+    margin-left: 10px;
+    display: inline-block;
+    background: #292929;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.f-icons i:hover
+{
+    color: #0e0d0d;
+    background-color:#ffc451;
+}
