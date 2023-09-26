@@ -86,15 +86,19 @@ let products=["mobile", "watch", "earphone", "camera", "watch", "mobile", "lapto
 // let deletedElement=products.shift();
 // console.log(products);  // ['earphone', 'camera', 'watch', 'mobile', 'laptop']
 // console.log(deletedElement);    //watch
+// let a=[]
+// console.log(a.shift()); //undefined
 
 //^ 9. pop()
 //& 
 
-console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch', 'mobile', 'laptop']
-console.log(products.pop()); //laptop
-console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch', 'mobile']
-let deletedElement=products.pop()
-console.log(products); //
-console.log(deletedElement); //
+// console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch', 'mobile', 'laptop']
+// console.log(products.pop()); //laptop
+// console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch', 'mobile']
+// let deletedElement=products.pop()
+// console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch']
+// console.log(deletedElement); //mobile
+let a=[]
+console.log(a.pop()); //undefined
 
 
