@@ -121,7 +121,18 @@ let products=["mobile", "watch", "earphone", "camera", "watch", "mobile", "lapto
 
 // ? ex3
 
-let deletedElement=products.splice(1,5);
-console.log(products); // 
-console.log(deletedElement); //
+// let deletedElement=products.splice(1,5);
+// console.log(products); //  ['mobile', 'laptop']
+// console.log(deletedElement); // ['watch', 'earphone', 'camera', 'watch', 'mobile']
 
+// ? ex4
+
+// let deletedElement=products.splice(4,0,"wallet");
+// console.log(products); //  ['mobile', 'watch', 'earphone', 'camera', 'wallet', 'watch', 'mobile', 'laptop']
+// console.log(deletedElement); // []
+
+//? ex5
+
+let deletedElement=products.splice(4);
+console.log(products); //  ['mobile', 'watch', 'earphone', 'camera']
+console.log(deletedElement); //  ['watch', 'mobile', 'laptop']
