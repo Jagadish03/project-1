@@ -90,7 +90,7 @@ let products=["mobile", "watch", "earphone", "camera", "watch", "mobile", "lapto
 // console.log(a.shift()); //undefined
 
 //^ 9. pop()
-//& 
+//& Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 
 // console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch', 'mobile', 'laptop']
 // console.log(products.pop()); //laptop
@@ -98,7 +98,17 @@ let products=["mobile", "watch", "earphone", "camera", "watch", "mobile", "lapto
 // let deletedElement=products.pop()
 // console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch']
 // console.log(deletedElement); //mobile
-let a=[]
-console.log(a.pop()); //undefined
+// let a=[]
+// console.log(a.pop()); //undefined
 
+//^ 10. splice()
+Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+It accepts the n-number of arguments where arg1 : is index postion from where we want to add or delete
+arg2 : is the number of elements to be deleted 
+from the arg3 : all the arg are considered as new elements to be added
+if u don't want to add the new element
+
+console.log(products);
+console.log(products.splice(2,3,"cat","dog"));
+console.log(products);
 
