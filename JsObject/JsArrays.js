@@ -93,7 +93,7 @@ let products=["mobile", "watch", "earphone", "camera", "watch", "mobile", "lapto
 //& Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 
 // console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch', 'mobile', 'laptop']
-// console.log(products.pop()); //laptop
+// console.log(products.pop()); //laptop ['earphone', 'camera', 'watch']
 // console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch', 'mobile']
 // let deletedElement=products.pop()
 // console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch']
@@ -102,13 +102,26 @@ let products=["mobile", "watch", "earphone", "camera", "watch", "mobile", "lapto
 // console.log(a.pop()); //undefined
 
 //^ 10. splice()
-Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
-It accepts the n-number of arguments where arg1 : is index postion from where we want to add or delete
-arg2 : is the number of elements to be deleted 
-from the arg3 : all the arg are considered as new elements to be added
-if u don't want to add the new element
+// & Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+// & It accepts the n-number of arguments where arg1 : is index postion from where we want to add or delete
+// & arg2 : is the number of elements to be deleted 
+// & from the arg3 : all the arg are considered as new elements to be added
+// & if u don't want to add the new element pass only 2 arg
+// & if u don't want to delete the element pass zero
 
-console.log(products);
-console.log(products.splice(2,3,"cat","dog"));
-console.log(products);
+// ? Example 1
+// console.log(products); //['mobile', 'watch', 'earphone', 'camera', 'watch', 'mobile', 'laptop']
+// console.log(products.splice(2,3,"cat","dog")); // ['earphone', 'camera', 'watch']
+// console.log(products); // ['mobile', 'watch', 'cat', 'dog', 'mobile', 'laptop']
+
+//? ex2
+// let deletedElement=products.splice(4,1,"laptop");
+// console.log(products); // ['mobile', 'watch', 'earphone', 'camera', 'laptop', 'mobile', 'laptop']
+// console.log(deletedElement); //['watch']
+
+// ? ex3
+
+let deletedElement=products.splice(1,5);
+console.log(products); // 
+console.log(deletedElement); //
 
