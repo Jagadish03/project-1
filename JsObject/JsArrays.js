@@ -133,6 +133,8 @@ let products=["mobile", "watch", "earphone", "camera", "watch", "mobile", "lapto
 
 //? ex5
 
-let deletedElement=products.splice(4);
-console.log(products); //  ['mobile', 'watch', 'earphone', 'camera']
-console.log(deletedElement); //  ['watch', 'mobile', 'laptop']
+// let deletedElement=products.splice(4);
+// console.log(products); //  ['mobile', 'watch', 'earphone', 'camera']
+// console.log(deletedElement); //  ['watch', 'mobile', 'laptop']
+
+//^ 11. 
