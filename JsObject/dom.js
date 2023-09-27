@@ -16,10 +16,19 @@
 //& gets the element based on the selectors, and gets the first occured element
 
 let res=document.querySelector("a")
-console.log(res); //
+console.log(res); //<a href="" id="demo">Bye</a>
 
 let res1=document.querySelector("h1")
-console.log(res1); //
+console.log(res1); //<h1 class="demo">Heading</h1>
 
-// let res2=document.getElementById("max")
-// console.log(res2); //null
+// let res2=document.querySelector(".a")
+// console.log(res2); //<h1 class="a">Hello</h1>
+
+let res3=document.querySelector("#a")
+console.log(res3); //null
+
+let res4=document.querySelector("div h2")
+console.log(res4); //
+
+let res5=document.querySelector("demo")
+console.log(res5); //
