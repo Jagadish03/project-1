@@ -61,7 +61,22 @@
 // let res=document.getElementsByClassName("a")
 // console.log(res);// HTMLCollection(2) => HTMLCollection [a.a]
 
-let res1=document.getElementsByClassName("h1")
-console.log(res1)//HTMLCollection []
+// let res1=document.getElementsByClassName("h1")
+// console.log(res1)//HTMLCollection []
+
+//^ document.getElementByTagName:-
+//& 
+
+let res=document.getElementsByTagName("a")
+console.log(res); //HTMLCollection [a#demo, demo: a#demo]
+
+let res1=document.querySelectorAll("h1")
+console.log(res1); //NodeList(2) [h1.demo, h1.a]
+
+
+let res2=document.querySelectorAll("section")
+console.log(res2); //NodeList []
+
+
 
 
