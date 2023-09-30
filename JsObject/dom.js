@@ -33,7 +33,7 @@
 // let res5=document.querySelector("demo")
 // console.log(res5); //null
 
-//^ document.querySelectorALL:-
+//^ 3. document.querySelectorALL:-
 //& gets all the elements based on the selector, and returns all elements with the given selector 
 
 // let res=document.querySelectorAll("a")
@@ -58,24 +58,26 @@
 //^ documents.getElementsByClassName:-
 //& getElementsByClassName() method is used to select HTML elements by their class name. It returns a list of matched elements in an array object
 
-// let res=document.getElementsByClassName("a")
-// console.log(res);// HTMLCollection(2) => HTMLCollection [a.a]
+let res=document.getElementsByClassName("a")
+console.log(res);// HTMLCollection(2) [h1.a, span.a]
 
 // let res1=document.getElementsByClassName("h1")
 // console.log(res1)//HTMLCollection []
 
+// let res3=document.getElementsByClassName("demo")
+// console.log(res3)//HTMLCollection [h1.demo]
 //^ document.getElementByTagName:-
 //& 
 
-let res=document.getElementsByTagName("a")
-console.log(res); //HTMLCollection [a#demo, demo: a#demo]
+// let res=document.getElementsByTagName("a")
+// console.log(res); //HTMLCollection [a#demo, demo: a#demo]
 
-let res1=document.querySelectorAll("h1")
-console.log(res1); //NodeList(2) [h1.demo, h1.a]
+// let res1=document.querySelectorAll("h1")
+// console.log(res1); //NodeList(2) [h1.demo, h1.a]
 
 
-let res2=document.querySelectorAll("section")
-console.log(res2); //NodeList []
+// let res2=document.querySelectorAll("section")
+// console.log(res2); //NodeList []
 
 
 
