@@ -137,4 +137,29 @@ let products=["mobile", "watch", "earphone", "camera", "watch", "mobile", "lapto
 // console.log(products); //  ['mobile', 'watch', 'earphone', 'camera']
 // console.log(deletedElement); //  ['watch', 'mobile', 'laptop']
 
-//^ 11. 
+//^ 11. fill()
+//& it is used to fill all the array elements with a new value
+// console.log(products);
+// products.fill("pen")//['pen', 'pen', 'pen', 'pen', 'pen', 'pen', 'pen']
+// products.fill("pen",2,5)//['mobile', 'watch', 'pen', 'pen', 'pen', 'mobile', 'laptop']
+// let res=products.fill("pen",2)
+// console.log(res);// ['mobile', 'watch', 'pen', 'pen', 'pen', 'pen', 'pen']
+// console.log(products);
+
+// ^ 12.Reverse()
+//& It is used to reverse the array elements
+
+// console.log(products.reverse());//['laptop', 'mobile', 'watch', 'camera', 'earphone', 'watch', 'mobile']
+// console.log(products);
+
+//^ 13.join()
+//& Adds all the elements of an array into a string, separated by the specified separator string.
+
+// console.log(products.join());//mobile,watch,earphone,camera,watch,mobile,laptop
+// console.log(products.join(""));//mobilewatchearphonecamerawatchmobilelaptop
+// console.log(products.join("|"));//mobile|watch|earphone|camera|watch|mobile|laptop
+
+//^ 14. at()
+//& it is used to get array elements based on index postion
+
+console.log(products.at(2));
